@@ -1,0 +1,8 @@
+:80 {
+	header /* {
+        -Server
+    }
+	root * /var/www
+	try_files {path} /index.html
+	file_server
+}
